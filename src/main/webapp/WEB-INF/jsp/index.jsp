@@ -1,20 +1,20 @@
 <%@ page language="java" import="java.util.*" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@include file="../static/taglib.jsp" %>
+
 <!DOCTYPE HTML>
 <html>
 <head>
 
 <title>Home</title>
-<link href="${baseURL}/static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
-<link href="${baseURL}/css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="${baseURL}/css/owl.carousel.css" rel="stylesheet">
+<link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="static/css/owl.carousel.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Swim Wear Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<script src="${baseURL}/js/jquery.min.js"></script>
-<script type="text/javascript" src="${baseURL}/js/bootstrap-3.1.1.min.js"></script>
+<script src="static/js/jquery.min.js"></script>
+<script type="text/javascript" src="static/js/bootstrap-3.1.1.min.js"></script>
 	<!-- cart -->
 		<script src="js/simpleCart.min.js"> </script>
 	<!-- cart -->
@@ -72,29 +72,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			            <div class="row">
 				            <div class="col-sm-4">
 					            <ul class="multi-column-dropdown">
-						            <li><a class="list" href="products.html">Women</a></li>
-						            <li><a class="list1" href="products.html">PrettySecrets</a></li>
-						            <li><a class="list1" href="products.html">N-Gal</a></li>
-						            <li><a class="list1" href="products.html">Lobster</a></li>
-						            <li><a class="list1" href="products.html">Citypret</a></li>
+						            <li><a class="list" href="products.jsp">Women</a></li>
+						            <li><a class="list1" href="products.jsp">PrettySecrets</a></li>
+						            <li><a class="list1" href="products.jsp">N-Gal</a></li>
+						            <li><a class="list1" href="products.jsp">Lobster</a></li>
+						            <li><a class="list1" href="products.jsp">Citypret</a></li>
 					            </ul>
 				            </div>
 				            <div class="col-sm-4">
 					            <ul class="multi-column-dropdown">
-						            <li><a class="list" href="products.html">Kids</a></li>
-						            <li><a class="list1" href="products.html">River Island</a></li>
-						            <li><a class="list1" href="products.html">Penny</a></li>
-						            <li><a class="list1" href="products.html">Nidhi Munim</a></li>
-						            <li><a class="list1" href="products.html">Divaat</a></li>
+						            <li><a class="list" href="products.jsp">Kids</a></li>
+						            <li><a class="list1" href="products.jsp">River Island</a></li>
+						            <li><a class="list1" href="products.jsp">Penny</a></li>
+						            <li><a class="list1" href="products.jsp">Nidhi Munim</a></li>
+						            <li><a class="list1" href="products.jsp">Divaat</a></li>
 					            </ul>
 				            </div>
 				            <div class="col-sm-4">
 					            <ul class="multi-column-dropdown">
-						            <li><a class="list" href="products.html">Men</a></li>
-						            <li><a class="list1" href="products.html">Fiesta Clara</a></li>
-						            <li><a class="list1" href="products.html">Quiksilver</a></li>
-						            <li><a class="list1" href="products.html">Incult</a></li>
-						            <li><a class="list1" href="products.html">Proline</a></li>
+						            <li><a class="list" href="products.jsp">Men</a></li>
+						            <li><a class="list1" href="products.jsp">Fiesta Clara</a></li>
+						            <li><a class="list1" href="products.jsp">Quiksilver</a></li>
+						            <li><a class="list1" href="products.jsp">Incult</a></li>
+						            <li><a class="list1" href="products.jsp">Proline</a></li>
 					            </ul>
 				            </div>
 			            </div>
@@ -106,29 +106,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			            <div class="row">
 				            <div class="col-sm-4">
 					           <ul class="multi-column-dropdown">
-						            <li><a class="list" href="products.html">Women</a></li>
-						            <li><a class="list1" href="products.html">PrettySecrets</a></li>
-						            <li><a class="list1" href="products.html">N-Gal</a></li>
-						            <li><a class="list1" href="products.html">Lobster</a></li>
-						            <li><a class="list1" href="products.html">Citypret</a></li>
+						            <li><a class="list" href="products.jsp">Women</a></li>
+						            <li><a class="list1" href="products.jsp">PrettySecrets</a></li>
+						            <li><a class="list1" href="products.jsp">N-Gal</a></li>
+						            <li><a class="list1" href="products.jsp">Lobster</a></li>
+						            <li><a class="list1" href="products.jsp">Citypret</a></li>
 					            </ul>
 				            </div>
 				            <div class="col-sm-4">
 					             <ul class="multi-column-dropdown">
-						            <li><a class="list"  href="products.html">Kids</a></li>
-						            <li><a class="list1" href="products.html">River Island</a></li>
-						            <li><a class="list1" href="products.html">Penny</a></li>
-						            <li><a class="list1" href="products.html">Nidhi Munim</a></li>
-						            <li><a class="list1" href="products.html">Divaat</a></li>
+						            <li><a class="list"  href="products.jsp">Kids</a></li>
+						            <li><a class="list1" href="products.jsp">River Island</a></li>
+						            <li><a class="list1" href="products.jsp">Penny</a></li>
+						            <li><a class="list1" href="products.jsp">Nidhi Munim</a></li>
+						            <li><a class="list1" href="products.jsp">Divaat</a></li>
 					            </ul>
 				            </div>
 				            <div class="col-sm-4">
 					            <ul class="multi-column-dropdown">
-						            <li><a  class="list" href="products.html">Men</a></li>
-						            <li><a class="list1" href="products.html">Fiesta Clara</a></li>
-						            <li><a class="list1" href="products.html">Quiksilver</a></li>
-						            <li><a class="list1" href="products.html">Incult</a></li>
-						            <li><a class="list1" href="products.html">Proline</a></li>
+						            <li><a  class="list" href="products.jsp">Men</a></li>
+						            <li><a class="list1" href="products.jsp">Fiesta Clara</a></li>
+						            <li><a class="list1" href="products.jsp">Quiksilver</a></li>
+						            <li><a class="list1" href="products.jsp">Incult</a></li>
+						            <li><a class="list1" href="products.jsp">Proline</a></li>
 					            </ul>
 				            </div>
 			            </div>
@@ -140,36 +140,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			            <div class="row">
 				            <div class="col-sm-4">
 					            <ul class="multi-column-dropdown">
-						            <li><a class="list" href="products.html">Women</a></li>
-						            <li><a class="list1" href="products.html">PrettySecrets</a></li>
-						            <li><a class="list1" href="products.html">N-Gal</a></li>
-						            <li><a class="list1" href="products.html">Lobster</a></li>
-						            <li><a class="list1" href="products.html">Citypret</a></li>
+						            <li><a class="list" href="products.jsp">Women</a></li>
+						            <li><a class="list1" href="products.jsp">PrettySecrets</a></li>
+						            <li><a class="list1" href="products.jsp">N-Gal</a></li>
+						            <li><a class="list1" href="products.jsp">Lobster</a></li>
+						            <li><a class="list1" href="products.jsp">Citypret</a></li>
 					            </ul>
 				            </div>
 				            <div class="col-sm-4">
 					             <ul class="multi-column-dropdown">
-						            <li><a  class="list" href="products.html">Kids</a></li>
-						            <li><a class="list1" href="products.html">River Island</a></li>
-						            <li><a class="list1" href="products.html">Penny</a></li>
-						            <li><a class="list1" href="products.html">Nidhi Munim</a></li>
-						            <li><a class="list1" href="products.html">Divaat</a></li>
+						            <li><a  class="list" href="products.jsp">Kids</a></li>
+						            <li><a class="list1" href="products.jsp">River Island</a></li>
+						            <li><a class="list1" href="products.jsp">Penny</a></li>
+						            <li><a class="list1" href="products.jsp">Nidhi Munim</a></li>
+						            <li><a class="list1" href="products.jsp">Divaat</a></li>
 					            </ul>
 				            </div>
 				            <div class="col-sm-4">
 					            <ul class="multi-column-dropdown">
-						            <li><a class="list" href="products.html">Men</a></li>
-						            <li><a class="list1" href="products.html">Fiesta Clara</a></li>
-						            <li><a class="list1" href="products.html">Quiksilver</a></li>
-						            <li><a class="list1" href="products.html">Incult</a></li>
-						            <li><a class="list1" href="products.html">Proline</a></li>
+						            <li><a class="list" href="products.jsp">Men</a></li>
+						            <li><a class="list1" href="products.jsp">Fiesta Clara</a></li>
+						            <li><a class="list1" href="products.jsp">Quiksilver</a></li>
+						            <li><a class="list1" href="products.jsp">Incult</a></li>
+						            <li><a class="list1" href="products.jsp">Proline</a></li>
 					            </ul>
 				            </div>
 			            </div>
 		            </ul>
 		        </li>
-					<li><a href="products.html">Top</a></li>
-					<li><a href="products.html">Bikini</a></li>
+					<li><a href="products.jsp">Top</a></li>
+					<li><a href="products.jsp">Bikini</a></li>
 	        </ul>
 	    </div>
 	    <!--/.navbar-collapse-->
@@ -187,8 +187,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			
 <!-- search-scripts -->
-					<script src="js/classie.js"></script>
-					<script src="js/uisearch.js"></script>
+					<script src="static/js/classie.js"></script>
+					<script src="static/js/uisearch.js"></script>
 						<script>
 							new UISearch( document.getElementById( 'sb-search' ) );
 						</script>
@@ -204,10 +204,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="col-md-6 banner-grid">
 						<h2>the latest collections</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						<a href="products.html" class="button"> shop now </a>
+						<a href="products.jsp" class="button"> shop now </a>
 					</div>
 				<div class="col-md-6 banner-grid1">
-						<img src="images/p2.png" class="img-responsive" alt=""/>
+						<img src="static/images/p2.png" class="img-responsive" alt=""/>
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -216,7 +216,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="banner-bottom">
 		<div class="gallery-cursual">
 		<!--requried-jsfiles-for owl-->
-		<script src="js/owl.carousel.js"></script>
+		<script src="static/js/owl.carousel.js"></script>
 			<script>
 				$(document).ready(function() {
 					$("#owl-demo").owlCarousel({
@@ -231,61 +231,61 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!--start content-slider-->
 		<div id="owl-demo" class="owl-carousel text-center">
 			<div class="item">
-				<img class="lazyOwl" data-src="images/b1.jpg" alt="name">
+				<img class="lazyOwl" data-src="static/images/b1.jpg" alt="name">
 				<div class="item-info">
 					<h5>Lorem ipsum</h5>
 				</div>
 			</div>
 			<div class="item">
-				<img class="lazyOwl" data-src="images/b2.jpg" alt="name">
+				<img class="lazyOwl" data-src="static/images/b2.jpg" alt="name">
 			<div class="item-info">
 					<h5>Lorem ipsum</h5>
 				</div>
 			</div>
 			<div class="item">
-				<img class="lazyOwl" data-src="images/b3.jpg" alt="name">
+				<img class="lazyOwl" data-src="static/images/b3.jpg" alt="name">
 			<div class="item-info">
 					<h5>Lorem ipsum</h5>
 				</div>
 			</div>
 			<div class="item">
-				<img class="lazyOwl" data-src="images/b4.jpg" alt="name">
+				<img class="lazyOwl" data-src="static/images/b4.jpg" alt="name">
 			<div class="item-info">
 					<h5>Lorem ipsum</h5>
 				</div>
 			</div>
 			<div class="item">
-				<img class="lazyOwl" data-src="images/b1.jpg" alt="name">
+				<img class="lazyOwl" data-src="static/images/b1.jpg" alt="name">
 			<div class="item-info">
 					<h5>Lorem ipsum</h5>
 				</div>
 			</div>
 			<div class="item">
-				<img class="lazyOwl" data-src="images/b6.jpg" alt="name">
+				<img class="lazyOwl" data-src="static/images/b6.jpg" alt="name">
 			<div class="item-info">
 					<h5>Lorem ipsum</h5>
 				</div>
 			</div>
 			<div class="item">
-				<img class="lazyOwl" data-src="images/b7.jpg" alt="name">
+				<img class="lazyOwl" data-src="static/images/b7.jpg" alt="name">
 			<div class="item-info">
 					<h5>Lorem ipsum</h5>
 				</div>
 			</div>
 			<div class="item">
-				<img class="lazyOwl" data-src="images/b1.jpg" alt="name">
+				<img class="lazyOwl" data-src="static/images/b1.jpg" alt="name">
 			<div class="item-info">
 					<h5>Lorem ipsum</h5>
 				</div>
 			</div>
 			<div class="item">
-				<img class="lazyOwl" data-src="images/b2.jpg" alt="name">
+				<img class="lazyOwl" data-src="static/images/b2.jpg" alt="name">
 			<div class="item-info">
 					<h5>Lorem ipsum</h5>
 				</div>
 			</div>
 			<div class="item">
-				<img class="lazyOwl" data-src="images/b3.jpg" alt="name">
+				<img class="lazyOwl" data-src="static/images/b3.jpg" alt="name">
 			<div class="item-info">
 					<h5>Lorem ipsum</h5>
 				</div>
@@ -299,7 +299,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<h3>Featured products</h3>
 			<div class="gallery-grids">
 				<div class="col-md-3 gallery-grid ">
-					<a href="products.html"><img src="images/g1.png" class="img-responsive" alt=""/>
+					<a href="products.jsp"><img src="static/images/g1.png" class="img-responsive" alt=""/>
 					<div class="gallery-info">
 					<div class="quick">
 					<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> view</p>
@@ -312,11 +312,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h5 class="item_price">$95.00</h5>
 						</div>
 					<div class="rating">
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
 								</div>
 						
 					<div class="clearfix"></div>
@@ -324,7 +324,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 				<div class="col-md-3 gallery-grid">
-						<a href="products.html"><img src="images/g2.png" class="img-responsive" alt=""/>
+						<a href="products.jsp"><img src="static/images/g2.png" class="img-responsive" alt=""/>
 						<div class="gallery-info">
 					<div class="quick">
 					<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> view</p>
@@ -337,11 +337,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h5 class="item_price">$95.00</h5>
 						</div>
 					<div class="rating">
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
 								</div>
 						
 					<div class="clearfix"></div>
@@ -349,7 +349,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 					<div class="col-md-3 gallery-grid">
-						<a href="products.html"><img src="images/g3.png" class="img-responsive" alt=""/>
+						<a href="products.jsp"><img src="static/images/g3.png" class="img-responsive" alt=""/>
 						<div class="gallery-info">
 					<div class="quick">
 					<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> view</p>
@@ -362,11 +362,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h5 class="item_price">$95.00</h5>
 						</div>
 					<div class="rating">
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
 								</div>
 						
 					<div class="clearfix"></div>
@@ -374,7 +374,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 				<div class="col-md-3 gallery-grid">
-						<a href="products.html"><img src="images/g4.png" class="img-responsive" alt=""/>
+						<a href="products.jsp"><img src="static/images/g4.png" class="img-responsive" alt=""/>
 						<div class="gallery-info">
 					<div class="quick">
 					<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> view</p>
@@ -387,11 +387,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h5 class="item_price">$95.00</h5>
 						</div>
 					<div class="rating">
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
 								</div>
 						
 					<div class="clearfix"></div>
@@ -399,7 +399,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 					<div class="col-md-3 gallery-grid ">
-						<a href="products.html"><img src="images/g5.jpg" class="img-responsive" alt=""/>
+						<a href="products.jsp"><img src="static/images/g5.jpg" class="img-responsive" alt=""/>
 						<div class="gallery-info">
 					<div class="quick">
 					<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> view</p>
@@ -412,11 +412,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h5 class="item_price">$95.00</h5>
 						</div>
 					<div class="rating">
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
 								</div>
 						
 					<div class="clearfix"></div>
@@ -424,7 +424,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 					<div class="col-md-3 gallery-grid">
-						<a href="products.html"><img src="images/g6.jpg" class="img-responsive" alt=""/>
+						<a href="products.jsp"><img src="static/images/g6.jpg" class="img-responsive" alt=""/>
 						<div class="gallery-info">
 					<div class="quick">
 					<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> view</p>
@@ -437,11 +437,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h5 class="item_price">$95.00</h5>
 						</div>
 					<div class="rating">
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
 								</div>
 						
 					<div class="clearfix"></div>
@@ -449,7 +449,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 					<div class="col-md-3 gallery-grid">
-						<a href="products.html"><img src="images/g7.jpg" class="img-responsive" alt=""/><div class="gallery-info">
+						<a href="products.jsp"><img src="static/images/g7.jpg" class="img-responsive" alt=""/><div class="gallery-info">
 					<div class="quick">
 					<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> view</p>
 					</div>
@@ -461,11 +461,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h5 class="item_price">$95.00</h5>
 						</div>
 					<div class="rating">
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
 								</div>
 						
 					<div class="clearfix"></div>
@@ -473,7 +473,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 				<div class="col-md-3 gallery-grid">
-						<a href="products.html"><img src="images/g8.jpg" class="img-responsive" alt=""/>
+						<a href="products.jsp"><img src="static/images/g8.jpg" class="img-responsive" alt=""/>
 						<div class="gallery-info">
 					<div class="quick">
 					<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> view</p>
@@ -486,11 +486,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h5 class="item_price">$95.00</h5>
 						</div>
 					<div class="rating">
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
-									<span>â</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
 								</div>
 						
 					<div class="clearfix"></div>
@@ -522,7 +522,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="col-md-2 footer-grid">
 					<h4>company</h4>
 					<ul>
-						<li><a href="products.html">products</a></li>
+						<li><a href="products.jsp">products</a></li>
 						<li><a href="#">Work Here</a></li>
 						<li><a href="#">Team</a></li>
 						<li><a href="#">Happenings</a></li>
@@ -535,7 +535,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="#">Support</a></li>
 						<li><a href="#">FAQ</a></li>
 						<li><a href="#">Warranty</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="contact.jsp">Contact Us</a></li>
 					</ul>
 					</div>
 					<div class="col-md-2 footer-grid">

@@ -41,7 +41,9 @@
             </list>
         </property>
     </bean>
-
+<!-- 相当于注册了DefaultAnnotationHandlerMapping和AnnotationMethodHandlerAdapter两个bean，
+	配置一些messageconverter。即解决了@Controller注解的使用前提配置。 -->
+	<mvc:annotation-driven />
 
     <!-- 定义跳转的文件的前后缀 ，视图模式配置 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -49,8 +51,8 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 	 <!-- 静态资源问题，不需要进行拦截过滤，主要是针对css，js，image等资源 -->
-	<!--<mvc:resources mapping="/static/**" location="/static/" cache-period="31536000" />
-	<mvc:resources mapping="/favicon.ico" location="/favicon.ico" /> -->
+	 <mvc:resources mapping="/static/**" location="/static/" cache-period="31536000" /> 
+	<!--<mvc:resources mapping="/favicon.ico" location="/favicon.ico" /> -->
     <!-- 文件上传配置 -->
     <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
         <!-- 默认编码 -->

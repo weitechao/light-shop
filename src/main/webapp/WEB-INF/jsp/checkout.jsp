@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Account</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/owl.carousel.css" rel="stylesheet">
+<title>Checkout</title>
+<link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="static/css/owl.carousel.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Swim Wear Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
@@ -12,14 +12,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <script src="js/jquery.min.js"></script>
 <!-- cart -->
-		<script src="js/simpleCart.min.js"> </script>
+		<script src="static/js/simpleCart.min.js"> </script>
 	<!-- cart -->
-<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
-<script src="js/imagezoom.js"></script>
+<script type="text/javascript" src="static/js/bootstrap-3.1.1.min.js"></script>
+<script src="static/js/imagezoom.js"></script>
 
 						<!-- FlexSlider -->
-  <script defer src="js/jquery.flexslider.js"></script>
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+  <script defer src="static/js/jquery.flexslider.js"></script>
+<link rel="stylesheet" href="static/css/flexslider.css" type="text/css" media="screen" />
 
 <script>
 // Can also be used with $(document).ready()
@@ -64,9 +64,9 @@ $(window).load(function() {
 			</div>
 			<div class="header-bottom">
 					<div class="container">
-<!--/.content-->
-<div class="content white">
-	<nav class="navbar navbar-default" role="navigation">
+	<!--/.content-->
+	<div class="content white">
+		<nav class="navbar navbar-default" role="navigation">
 	    <div class="navbar-header">
 	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 		        <span class="sr-only">Toggle navigation</span>
@@ -78,7 +78,7 @@ $(window).load(function() {
 	    </div>
 	    <!--/.navbar-header-->
 	
-	     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	        <ul class="nav navbar-nav">
 			<li><a href="index.html">Home</a></li>
 		        <li class="dropdown">
@@ -202,8 +202,8 @@ $(window).load(function() {
 				</div>
 			
 <!-- search-scripts -->
-					<script src="js/classie.js"></script>
-					<script src="js/uisearch.js"></script>
+					<script src="static/js/classie.js"></script>
+					<script src="static/js/uisearch.js"></script>
 						<script>
 							new UISearch( document.getElementById( 'sb-search' ) );
 						</script>
@@ -213,55 +213,104 @@ $(window).load(function() {
 				</div>
 			</div>
 			<!--header-->
-			<div class="content">
- <!-- registration -->
-	<div class="main-1">
-		<div class="container">
-			<div class="register">
-		  	  <form> 
-				 <div class="register-top-grid">
-					<h3>PERSONAL INFORMATION</h3>
-					 <div class="wow fadeInLeft" data-wow-delay="0.4s">
-						<span>First Name<label>*</label></span>
-						<input type="text"> 
-					 </div>
-					 <div class="wow fadeInRight" data-wow-delay="0.4s">
-						<span>Last Name<label>*</label></span>
-						<input type="text"> 
-					 </div>
-					 <div class="wow fadeInRight" data-wow-delay="0.4s">
-						 <span>Email Address<label>*</label></span>
-						 <input type="text"> 
-					 </div>
-					 <div class="clearfix"> </div>
-					   <a class="news-letter" href="#">
-						 <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Sign Up for Newsletter</label>
-					   </a>
-					 </div>
-				     <div class="register-bottom-grid">
-						    <h3>LOGIN INFORMATION</h3>
-							 <div class="wow fadeInLeft" data-wow-delay="0.4s">
-								<span>Password<label>*</label></span>
-								<input type="text">
-							 </div>
-							 <div class="wow fadeInRight" data-wow-delay="0.4s">
-								<span>Confirm Password<label>*</label></span>
-								<input type="text">
-							 </div>
-					 </div>
-				</form>
-				<div class="clearfix"> </div>
-				<div class="register-but">
-				   <form>
-					   <input type="submit" value="submit">
-					   <div class="clearfix"> </div>
-				   </form>
-				</div>
-		   </div>
+<!-- checkout -->
+<div class="content">
+<div class="cart-items">
+	<div class="container">
+			 <h2>My Shopping Bag (3)</h2>
+				<script>$(document).ready(function(c) {
+					$('.close1').on('click', function(c){
+						$('.cart-header').fadeOut('slow', function(c){
+							$('.cart-header').remove();
+						});
+						});	  
+					});
+			   </script>
+			 <div class="cart-header">
+				 <div class="close1"> </div>
+				 <div class="cart-sec simpleCart_shelfItem">
+						<div class="cart-item cyc">
+							 <img src="images/c1.jpeg" class="img-responsive" alt="">
+						</div>
+					   <div class="cart-item-info">
+						<h3><a href="#"> Lorem Ipsum is not simply </a><span>Pickup time:</span></h3>
+						<ul class="qty">
+							<li><p>Min. order value:</p></li>
+							<li><p>FREE delivery</p></li>
+						</ul>
+							 <div class="delivery">
+							 <p>Service Charges : $10.00</p>
+							 <span>Delivered in 1-1:30 hours</span>
+							 <div class="clearfix"></div>
+				        </div>	
+					   </div>
+					   <div class="clearfix"></div>
+											
+				  </div>
+			 </div>
+			 <script>$(document).ready(function(c) {
+					$('.close2').on('click', function(c){
+							$('.cart-header2').fadeOut('slow', function(c){
+						$('.cart-header2').remove();
+					});
+					});	  
+					});
+			 </script>
+			 <div class="cart-header2">
+				 <div class="close2"> </div>
+				  <div class="cart-sec simpleCart_shelfItem">
+						<div class="cart-item cyc">
+							 <img src="images/c2.jpeg" class="img-responsive" alt="">
+						</div>
+					   <div class="cart-item-info">
+						<h3><a href="#"> Lorem Ipsum is not simply </a><span>Pickup time:</span></h3>
+						<ul class="qty">
+							<li><p>Min. order value:</p></li>
+							<li><p>FREE delivery</p></li>
+						</ul>
+							 <div class="delivery">
+							 <p>Service Charges : $10.00</p>
+							 <span>Delivered in 1-1:30 hours</span>
+							 <div class="clearfix"></div>
+				        </div>	
+					   </div>
+					   <div class="clearfix"></div>
+											
+				  </div>
+			  </div>
+			  <script>$(document).ready(function(c) {
+					$('.close3').on('click', function(c){
+							$('.cart-header3').fadeOut('slow', function(c){
+						$('.cart-header3').remove();
+					});
+					});	  
+					});
+			 </script>
+			  <div class="cart-header3">
+				 <div class="close3"> </div>
+				  <div class="cart-sec simpleCart_shelfItem">
+						<div class="cart-item cyc">
+							 <img src="images/c3.jpg" class="img-responsive" alt="">
+						</div>
+					   <div class="cart-item-info">
+						<h3><a href="#"> Lorem Ipsum is not simply </a><span>Pickup time:</span></h3>
+						<ul class="qty">
+							<li><p>Min. order value:</p></li>
+							<li><p>FREE delivery</p></li>
+						</ul>
+							 <div class="delivery">
+							 <p>Service Charges : $10.00</p>
+							 <span>Delivered in 1-1:30 hours</span>
+							 <div class="clearfix"></div>
+				        </div>	
+					   </div>
+					   <div class="clearfix"></div>
+											
+				  </div>
+			  </div>		
 		 </div>
-	</div>
-<!-- registration -->
-
+		 </div>
+<!-- checkout -->	
 <div class="subscribe">
 	 <div class="container">
 	 <div class="subscribe1">

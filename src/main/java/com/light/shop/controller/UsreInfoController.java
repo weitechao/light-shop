@@ -24,6 +24,10 @@ public class UsreInfoController {
 	public String index(){
 		return "index";
 	}
+	@RequestMapping("/products")
+	public String product(){
+		return "products";
+	}
 	
 	@RequestMapping(value = "/user", method = RequestMethod.GET)
     public String index(String name,Model model) {
