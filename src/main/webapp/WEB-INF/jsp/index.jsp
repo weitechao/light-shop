@@ -1,9 +1,7 @@
 <%@ page language="java" import="java.util.*" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-
 <!DOCTYPE HTML>
 <html>
 <head>
-
 <title>Home</title>
 <link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
 <link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -16,7 +14,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="static/js/jquery.min.js"></script>
 <script type="text/javascript" src="static/js/bootstrap-3.1.1.min.js"></script>
 	<!-- cart -->
-		<script src="js/simpleCart.min.js"> </script>
+		<script src="static/js/simpleCart.min.js"> </script>
 	<!-- cart -->
 </head>
 <body>
@@ -299,7 +297,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<h3>Featured products</h3>
 			<div class="gallery-grids">
 				<div class="col-md-3 gallery-grid ">
-					<a href="products.jsp"><img src="static/images/g1.png" class="img-responsive" alt=""/>
+					<a href="products"><img src="static/images/g1.png" class="img-responsive" alt=""/>
 					<div class="gallery-info">
 					<div class="quick">
 					<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> view</p>
