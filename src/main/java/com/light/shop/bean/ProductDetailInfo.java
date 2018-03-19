@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 
-public class ProductXiangxiInfo implements Serializable{
+public class ProductDetailInfo implements Serializable{
 
     /**
 	 * 
