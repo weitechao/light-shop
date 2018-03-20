@@ -4,91 +4,118 @@ import java.io.Serializable;
 import java.util.Date;
 
 public class UserInfo implements Serializable{
-
     /**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
-	private Long id;
-    private String userName;
-    private String userPhone;
-    private String userEmail;
-    private String userPwd;
-    private String pwdSalt;
-    private Date createTime;
-    private Date modifyTime;
-    private Short isDelete;
+	private static final long serialVersionUID = 5409664997648026359L;
 
-    public Long getId() {
-        return id;
+	private Integer userId;
+
+    private String username;
+
+    private String password;
+
+    private Date registertime;
+
+    private String nickname;
+
+    private Byte sex;
+
+    private String weight;
+
+    private String height;
+
+    private String address;
+
+    private String head;
+
+    private Integer type;
+
+    public Integer getUserId() {
+        return userId;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUsername() {
+        return username;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUsername(String username) {
+        this.username = username == null ? null : username.trim();
     }
 
-    public String getUserPhone() {
-        return userPhone;
+    public String getPassword() {
+        return password;
     }
 
-    public void setUserPhone(String userPhone) {
-        this.userPhone = userPhone;
+    public void setPassword(String password) {
+        this.password = password == null ? null : password.trim();
     }
 
-    public String getUserEmail() {
-        return userEmail;
+    public Date getRegistertime() {
+        return registertime;
     }
 
-    public void setUserEmail(String userEmail) {
-        this.userEmail = userEmail;
+    public void setRegistertime(Date registertime) {
+        this.registertime = registertime;
     }
 
-    public String getUserPwd() {
-        return userPwd;
+    public String getNickname() {
+        return nickname;
     }
 
-    public void setUserPwd(String userPwd) {
-        this.userPwd = userPwd;
+    public void setNickname(String nickname) {
+        this.nickname = nickname == null ? null : nickname.trim();
     }
 
-    public String getPwdSalt() {
-        return pwdSalt;
+    public Byte getSex() {
+        return sex;
     }
 
-    public void setPwdSalt(String pwdSalt) {
-        this.pwdSalt = pwdSalt;
+    public void setSex(Byte sex) {
+        this.sex = sex;
     }
 
-    public Date getCreateTime() {
-        return createTime;
+    public String getWeight() {
+        return weight;
     }
 
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
+    public void setWeight(String weight) {
+        this.weight = weight == null ? null : weight.trim();
     }
 
-    public Date getModifyTime() {
-        return modifyTime;
+    public String getHeight() {
+        return height;
     }
 
-    public void setModifyTime(Date modifyTime) {
-        this.modifyTime = modifyTime;
+    public void setHeight(String height) {
+        this.height = height == null ? null : height.trim();
     }
 
-    public Short getIsDelete() {
-        return isDelete;
+    public String getAddress() {
+        return address;
     }
 
-    public void setIsDelete(Short isDelete) {
-        this.isDelete = isDelete;
+    public void setAddress(String address) {
+        this.address = address == null ? null : address.trim();
+    }
+
+    public String getHead() {
+        return head;
+    }
+
+    public void setHead(String head) {
+        this.head = head == null ? null : head.trim();
+    }
+
+    public Integer getType() {
+        return type;
+    }
+
+    public void setType(Integer type) {
+        this.type = type;
     }
 }
-
