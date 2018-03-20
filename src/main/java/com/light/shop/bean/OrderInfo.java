@@ -1,100 +1,131 @@
 package com.light.shop.bean;
 
 import java.io.Serializable;
-import java.math.BigDecimal;
-import java.sql.Timestamp;
+import java.util.Date;
 
-public class OrderInfo implements Serializable{
-
+public class OrderInfo implements Serializable {
     /**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
-	
-	private Long id;
-	private String orderId;
-	private Long productId;
-	private Long num;
-	private BigDecimal totalPrice;
-	private Timestamp createtime;
-	private Integer status;
-	private String description;
-	private String size;
-	private String address;
-	private String telnumber;
-	private String name;
-	public Long getId() {
-		return id;
-	}
-	public void setId(Long id) {
-		this.id = id;
-	}
-	public String getOrderId() {
-		return orderId;
-	}
-	public void setOrderId(String orderId) {
-		this.orderId = orderId;
-	}
-	public Long getProductId() {
-		return productId;
-	}
-	public void setProductId(Long productId) {
-		this.productId = productId;
-	}
-	public Long getNum() {
-		return num;
-	}
-	public void setNum(Long num) {
-		this.num = num;
-	}
-	public BigDecimal getTotalPrice() {
-		return totalPrice;
-	}
-	public void setTotalPrice(BigDecimal totalPrice) {
-		this.totalPrice = totalPrice;
-	}
-	public Timestamp getCreatetime() {
-		return createtime;
-	}
-	public void setCreatetime(Timestamp createtime) {
-		this.createtime = createtime;
-	}
-	public Integer getStatus() {
-		return status;
-	}
-	public void setStatus(Integer status) {
-		this.status = status;
-	}
-	public String getDescription() {
-		return description;
-	}
-	public void setDescription(String description) {
-		this.description = description;
-	}
-	public String getSize() {
-		return size;
-	}
-	public void setSize(String size) {
-		this.size = size;
-	}
-	public String getAddress() {
-		return address;
-	}
-	public void setAddress(String address) {
-		this.address = address;
-	}
-	public String getTelnumber() {
-		return telnumber;
-	}
-	public void setTelnumber(String telnumber) {
-		this.telnumber = telnumber;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	
-}
+	private static final long serialVersionUID = 7563190127413649694L;
 
+	private Integer id;
+
+    private String orderId;
+
+    private Integer productId;
+
+    private Integer num;
+
+    private Long totalPrice;
+
+    private Date createtime;
+
+    private Byte status;
+
+    private String description;
+
+    private String size;
+
+    private String address;
+
+    private String telnumber;
+
+    private String name;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getOrderId() {
+        return orderId;
+    }
+
+    public void setOrderId(String orderId) {
+        this.orderId = orderId == null ? null : orderId.trim();
+    }
+
+    public Integer getProductId() {
+        return productId;
+    }
+
+    public void setProductId(Integer productId) {
+        this.productId = productId;
+    }
+
+    public Integer getNum() {
+        return num;
+    }
+
+    public void setNum(Integer num) {
+        this.num = num;
+    }
+
+    public Long getTotalPrice() {
+        return totalPrice;
+    }
+
+    public void setTotalPrice(Long totalPrice) {
+        this.totalPrice = totalPrice;
+    }
+
+    public Date getCreatetime() {
+        return createtime;
+    }
+
+    public void setCreatetime(Date createtime) {
+        this.createtime = createtime;
+    }
+
+    public Byte getStatus() {
+        return status;
+    }
+
+    public void setStatus(Byte status) {
+        this.status = status;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description == null ? null : description.trim();
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size == null ? null : size.trim();
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address == null ? null : address.trim();
+    }
+
+    public String getTelnumber() {
+        return telnumber;
+    }
+
+    public void setTelnumber(String telnumber) {
+        this.telnumber = telnumber == null ? null : telnumber.trim();
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name == null ? null : name.trim();
+    }
+}
