@@ -5,7 +5,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
+import RespCode.RespCode;
+
+import com.light.shop.exception.BizException;
 import com.light.shop.service.UserInfoService;
 
 
@@ -21,18 +25,23 @@ public class UsreInfoController {
 	}
 	
 	@RequestMapping("/index")
-	public String index(){
+	public String index(Model m){
+		m.addAttribute("name", "heool");
+		
 		return "index";
 	}
 	@RequestMapping("/products")
 	public String product(){
 		return "products";
 	}
-	
+	@ResponseBody
 	@RequestMapping(value = "/user", method = RequestMethod.GET)
     public String index(String name,Model model) {
         model.addAttribute("message", "hello");
         model.addAttribute("name", name);
-        return "/user";
+        int a = 0;
+		if(a == 0)
+		throw new BizException(200,"ddd");
+        return "66";
     }
 }

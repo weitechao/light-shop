@@ -19,6 +19,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 	<!--header-->
+	${name }
 		<div class="header">
 			<div class="header-top">
 			<div class="container">
