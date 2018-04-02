@@ -24,6 +24,25 @@
     from user_info
     where user_id = #{userId,jdbcType=INTEGER}
   </select>
+  
+   <select id="selectByUserName" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from user_info
+    where username = #{username,jdbcType=VARCHAR}
+  </select>
+  
+   <insert id="insertUserInfo" parameterType="com.light.shop.bean.UserInfo">
+    insert into user_info (username, password, 
+      registertime, nickname, sex, 
+      weight, height, address, 
+      head, type)
+    values ( #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{registertime,jdbcType=TIMESTAMP}, #{nickname,jdbcType=VARCHAR}, #{sex,jdbcType=TINYINT}, 
+      #{weight,jdbcType=VARCHAR}, #{height,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR}, 
+      #{head,jdbcType=VARCHAR}, #{type,jdbcType=INTEGER})
+  </insert>
+  
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from user_info
     where user_id = #{userId,jdbcType=INTEGER}

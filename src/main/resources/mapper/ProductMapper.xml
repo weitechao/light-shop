@@ -22,7 +22,7 @@
     delete from product
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.light.shop.bean.product">
+  <insert id="insert" parameterType="com.light.shop.bean.Product">
     insert into product (id, name, sale_price, 
       photo, original_price, type
       )
